@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    border: 1px solid black;
+    overflow-x: hidden;
+    background-image: linear-gradient(rgb(76,14,109),rgb(36,16,59));
+    width: 100vw;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items:center ;
+}
+
+.container{
+    width: 450px;
+    
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.container h1{
+    font-size: 2rem;
+    text-align: center;
+    opacity: 80%;
+    letter-spacing: 1px;
+}
+.display-container{
+    display: flex;
+    width: full;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    border-radius: 15px;
+    border-bottom: 5px solid purple;
+    padding: 10px;
+    position: relative;
+    
+   
+    
+
+}
+.copy{
+    color: white;
+    position: absolute;
+    top: 15%;
+    right: 1%;
+    color: yellow;
+}
+.active{
+   opacity: 0;
+}
+.display{
+    background: transparent;
+    color: yellow;
+    width: 100%;
+    height: 70px;
+    font-size: 1.4rem;
+    border: none;
+    padding: 5px;
+   
+
+   
+}
+ .display::placeholder{
+  color: yellow;
+  font-size: 1rem;
+  border: none;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+ 
+   
+  
+}
+.display:focus {
+    outline: none;
+}
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+}
+.display-container button{
+    background-color: transparent;
+    border: none;
+} 
+.lenght-container{
+    display: flex;
+    width: full;
+    justify-content: space-between;
+     font-size: 1.5rem;
+     flex-wrap: wrap;
+     gap: 1px;
+}
+.range{
+    width: 100%;
+}
+label{
+    font-size: 20px;
+}
+input[type="checkbox"]{
+    border: 2px solid orange;
+}
+.strength-container{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+.circle{
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    
+}
+.generateButton{
+    height: 40px;
+    background-color:rgb(188,21,244);
+    color: white;
+    border-radius: 10px;
+    border-bottom: 5px solid yellow;
+}
+
+    
